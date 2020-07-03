@@ -19,7 +19,7 @@ module.exports.run = async(bot, message, args) => {
 }
 
 module.exports.help = {
-    name: "sollicitieren",
+    name: "solliciteren",
     description: " Krijg informatie over sollicitaties",
     category: "General"
 }
