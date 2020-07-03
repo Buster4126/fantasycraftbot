@@ -8,7 +8,7 @@ module.exports.run = async(bot, message, args) => {
         .setDescription("Informatie over het sollicitieren!")
         .setThumbnail('https://imgur.com/gkPKmrQ.png')
         .addFields(
-            {name: "In dit kanaal kunt je sollicitieren", value: "solliciteren📂"},
+            {name: "In dit kanaal kunt je sollicitieren", value: "#solliciteren📂"},
             {name: "***Technik Status***", value:"*Dicht*"},
             {name: "***Bouwer Status***", value: "*Open*"},
             {name: "Heb je hulp nodig of heb je nog meer vragen?", value: "Maak een ticket in dit kanaal #tickets🎫"}
