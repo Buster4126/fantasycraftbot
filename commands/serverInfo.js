@@ -6,7 +6,7 @@ module.exports.run = async(bot, message, args) => {
         .setColor("#GREEN")
         .setTitle("Server Informations")
         .setDescription("Informations about this Server!")
-        .setThumbnail("https://imgur.com/a/b9S7M5l.png")
+        .setThumbnail('https://imgur.com/gkPKmrQ.png')
         .addField("Joined at:", message.member.joinedAt )
         .addField("User Count", message.guild.memberCount)
         .addFields(
