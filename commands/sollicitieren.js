@@ -9,7 +9,7 @@ module.exports.run = async(bot, message, args) => {
         .setThumbnail('https://imgur.com/gkPKmrQ.png')
         .addFields(
             {name: "In dit kanaal kunt je sollicitieren", value: "#solliciteren📂"},
-            {name: "***Technik Status***", value:"*Dicht*"},
+            {name: "***Technik Status***", value:"*Open*"},
             {name: "***Bouwer Status***", value: "*Open*"},
             {name: "Heb je hulp nodig of heb je nog meer vragen?", value: "Maak een ticket in dit kanaal #tickets🎫"}
         )
