@@ -10,7 +10,7 @@ module.exports.run = async(bot, message, args) => {
         .addFields(
             {name: "In dit kanaal kunt je sollicitieren", value: "#solliciteren📂"},
             {name: "***Technik Status***", value:"*Open*"},
-            {name: "***Bouwer Status***", value: "*Open*"},
+            {name: "***Bouwer Status***", value: "*Dicht*"},
             {name: "Heb je hulp nodig of heb je nog meer vragen?", value: "Maak een ticket in dit kanaal #tickets🎫"}
         )
 
