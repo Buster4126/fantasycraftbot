@@ -13,7 +13,9 @@
     "nodemon": "^2.0.4"
   },
   "dependencies": {
+    "@discordjs/opus": "^0.3.2",
     "discord.js": "^12.2.0",
-    "ms": "^2.1.2"
+    "ms": "^2.1.2",
+    "ytdl-core": "^3.1.2"
   }
 }
