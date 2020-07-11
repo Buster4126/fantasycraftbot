@@ -64,5 +64,7 @@ module.exports.run = async(bot, message, args) => {
 }
 
 module.exports.help = {
-    name: "warn"
+    name: "warn",
+    description: "Warn an user",
+    category: "Staff Commands"
 }

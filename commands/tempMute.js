@@ -38,5 +38,7 @@ module.exports.run = async(bot, message, args) => {
 }
 
 module.exports.help = {
-    name: "tempmute"
+    name: "tempmute",
+    description: "Tempmute an user",
+    category: "Staff Commands"
 }

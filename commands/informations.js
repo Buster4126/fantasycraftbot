@@ -15,5 +15,7 @@ module.exports.run = async(bot, message, args) => {
 }
 
 module.exports.help = {
-    name: "si"
+    name: "server-info",
+        description: "Kick an user",
+    category: "Staff Commands"
 }
