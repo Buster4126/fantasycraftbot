@@ -36,6 +36,7 @@ module.exports.run = async(bot, message, args) => {
     var info = "**\n__Information__**\n";
     var staff = "**\n__Staff Commands__**\n";
     var fun = "**\n__Fun Commands__**\n";
+    var music = "**\n__Music Commands__**\n";
 
     for (let i = 0; i < commandList.length; i++) {
         const command = commandList[i];
@@ -56,6 +57,10 @@ module.exports.run = async(bot, message, args) => {
 
             fun += `${prefix}${command["name"]} - ${command["description"]}\n`;
 
+        }else if(command["category"] == "Fun Commands"){
+
+            fun += `${prefix}${command["name"]} - ${command["description"]}\n`;
+            
         }
         
     }
