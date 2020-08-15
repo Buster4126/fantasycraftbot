@@ -20,7 +20,6 @@ module.exports.run = async(bot, message, args) => {
 
     if (!warnUser) return message.reply("Cannot find that user!");
 
-    if(warnUser.hasPermission("MANAGE_MESSAGES")) return message.reply("Sorry, you cannot warn this user!");
 
     if (!warns[warnUser.id]) warns [warnUser.id] = {
         warns: 0
